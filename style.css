@@ -1,0 +1,42 @@
+nav{
+    background-color: gray;
+    padding: 0;
+    /* border: 1px solid black; */
+    border-radius: 0.2rem;
+    text-decoration: underline;
+}
+ul{
+    display: flex;
+list-style: none;
+justify-content: space-between;
+align-items: center ;
+padding: 23px;
+}
+ul li{
+    display: flex;
+}
+table{
+    border: 2px solid black;
+    
+    
+    gap: 20px;
+ 
+}
+tr{
+border: 2px solid black;
+}
+.container{
+max-width: 150vh;
+margin: auto;
+}
+table ,td ,tr ,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
